@@ -10,6 +10,10 @@ module.exports = {
         jakarta: ["Plus Jakarta Sans", "sans-serif", "DM Sans"],
         dm: ["DM Sans", "sans-serif"], // Add the font family
       },
+      screens: {
+        xs: { max: "376px" },
+        "xs-min": { min: "376 px" },
+      },
     },
   },
   plugins: [],

@@ -11,17 +11,32 @@ const Header = () => {
 
   return (
     <header
-      className=" text-white"
+      className=" text-white "
       style={{ background: "rgba(14, 14, 14, 1)" }}
     >
-      <div className="container mx-auto flex justify-between items-center p-4">
+      <div
+        className="container mx-auto flex justify-between items-center p-4
+       xs:bg-[rgba(14,14,14,1)] xs:w-[375px] xs:h-[60px] "
+      >
         {/* Logo and Company Name */}
-        <div className="flex items-center justify-center relative left-[30px]">
-          <img src="/Logo.png" className="h-[31.96px] w-[98px]" alt="Logo" />
+        <div
+          className="flex items-center justify-center relative left-[45px]
+        xs:absolute xs:top-[20px] xs:gap-[20px]"
+        >
+          <img
+            src="/Logo.png"
+            className="h-[31.96px] w-[98px] xs:relative xs:right-[20px] xs:w-[78px] xs:h-[25px] ]"
+            alt="Logo"
+          />
+          <img
+            src="/Menu-01.svg"
+            className="xs:bg-[rgba(14,14,14,0.35)] hidden xs:block xs:absolute xs:left-[280px] xs:w-[24px] xs:h-[24px]"
+            alt="Menu"
+          />
         </div>
 
         {/* Centered Menu */}
-        <nav className="flex-grow text-center">
+        <nav className="flex-grow text-center relative  xs:hidden left-[20px]">
           <ul className="flex justify-center space-x-8 pl-16">
             <li>
               <Link href="/" className="hover:underline">
@@ -65,7 +80,7 @@ const Header = () => {
 
         {/* Buttons on the Right */}
         <div
-          className="flex justify-center"
+          className="flex justify-center relative right-[15px] top-[5px] xs:hidden"
           style={{ width: "255px", height: "45px", gap: "8px" }}
         >
           <button className="bg-[rgba(14,14,14,1)] hover:bg-[rgba(14,14,14,1)] text-white rounded-[30px] border border-gray-300 px-[12px] pl-[24px] pr-[24px]">

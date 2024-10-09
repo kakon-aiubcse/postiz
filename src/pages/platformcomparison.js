@@ -3,7 +3,7 @@ import React from "react";
 const PC = () => {
   return (
     <>
-      <div className="flex flex-col bg-[rgba(14,14,14,1)] p-2 text-white min-h-screen overflow-x-hidden">
+      <div className="flex flex-col bg-[rgba(14,14,14,1)] p-2 text-white min-h-screen overflow-x-hidden xs:top-[20px]">
         <header
           className="flex justify-center items-center text-center py-8"
           style={{
