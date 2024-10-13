@@ -3,7 +3,7 @@ import React from "react";
 const Summary = () => {
   return (
     <>
-      <div className="flex flex-col bg-[rgba(14,14,14,1)] p-2 text-white min-h-screen overflow-x-hidden">
+      <div className="flex flex-col bg-[rgba(14,14,14,1)] p-2 text-white min-h-screen overflow-x-hidden xs:hidden">
         <div className="flex flex-col bg-[rgba(14,14,14,1)] p-2 text-white min-h-screen ">
           <h1 className="flex font-jakarta w-[864px] h-[53px] mb-10 text-[48px] whitespace-nowrap text-center font-bold justify-center items-center mx-auto py-8">
             <p className="">Summary</p>

@@ -39,7 +39,7 @@ const Homepage = () => {
       >
         <div className="bg-[rgba(14,14,14,1)] mb-2 xs:relative  xs:w-[335px] xs:left-[10px] xs:top-[2px]">
           <p
-            className="text-white text-center w-[803.82px] h-[154px] font-jakarta font-[700] text-[70px] leading-[77px] 
+            className="text-[rgba(255,255,255,1)] text-center w-[803.82px] h-[154px] font-jakarta font-[700] text-[70px] leading-[77px] 
             xs:h-[80px] xs:relative  xs:w-[305px] xs:font-jakarta xs:font-[400] xs:text-[40px] xs:leading-[44px]"
           >
             Postiz and Buffer comparison
@@ -51,12 +51,12 @@ const Homepage = () => {
         </div>
 
         <div
-          className="text-white text-center mb-2 w-[771px] h-[58px]
+          className="text-[rgba(255,255,255,1)] text-center mb-2 w-[771px] h-[58px]
           xs:w-[332px] xs:h-[92]"
         >
           <p
             className="font-dm font-normal text-[22px] leading-[28.64px] text-center 
-          xs:font-dm xs:font-normal xs:text-[18px] xs:leading-[23.64px] xs:text-center "
+          xs:text-[rgba(209,209,209,1)] xs:font-dm xs:font-normal xs:text-[18px] xs:leading-[23.64px] xs:text-center "
           >
             Postiz's superior scheduling flow, competitor tracking, and client
             management make it the best Buffer alternative.
